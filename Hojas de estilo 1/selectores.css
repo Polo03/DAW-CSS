@@ -1,0 +1,57 @@
+/* Selector de tipo */
+h1 {
+    color: blue;
+}
+
+/* Selector de clase */
+#parrafo {
+    font-style: italic;
+}
+
+/* Selector de ID */
+#miDiv {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* Selector de descendientes */
+ul li {
+    list-style-type: square;
+}
+
+/* Selector de atributo */
+input[type="text"] {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Selector de pseudoclase */
+.btn:hover {
+    background-color: yellow;
+}
+
+/* Selector de pseudoelemento */
+.enlace::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+/* Selector de hermano inmediato */
+.parrafo + p {
+    color: green;
+}
+
+/* Selector de grupo */
+h1, .parrafo, #miDiv {
+    margin-bottom: 10px;
+}
+
+/* Selector universal */
+* {
+    box-sizing: border-box;
+}
+
+/* Selector de atributo con valor exacto */
+input[value="Texto aquí"] {
+    background-color: lightblue;
+}

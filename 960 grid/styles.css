@@ -1,0 +1,72 @@
+/* Contenedor principal */
+.container_24 {
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr); /* Divide en 24 columnas */
+    gap: 10px;
+}
+
+/* Columnas */
+.grid_24 {
+    grid-column: span 24;
+    text-align: center;
+}
+.grid_22 {
+    grid-column: span 22;
+}
+
+.grid_20 {
+    grid-column: span 20;
+}
+
+.grid_18 {
+    grid-column: span 18;
+}
+
+.grid_16 {
+    grid-column: span 16;
+}
+.grid_14 {
+    grid-column: span 14;
+}
+
+.grid_12 {
+    grid-column: span 12;
+}
+
+.grid_10 {
+    grid-column: span 10;
+}
+
+.grid_8 {
+    grid-column: span 8;
+}
+.grid_6 {
+    grid-column: span 6;
+}
+.grid_4 {
+    grid-column: span 4;
+}
+.grid_2 {
+    grid-column: span 2;
+}
+
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.6;
+}

@@ -1,0 +1,54 @@
+/* Reset básico para evitar estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container_12 {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Clases de columnas de 12 columnas (ancho total: 960px) */
+.grid_1  { width: 7.5%; }
+.grid_2  { width: 15%; }
+.grid_3  { width: 23%; }
+.grid_4  { width: 31%; }
+.grid_5  { width: 39%; }
+.grid_6  { width: 47%; }
+.grid_7  { width: 55%; }
+.grid_8  { width: 63%; }
+.grid_9  { width: 71%; }
+.grid_10 { width: 79%; }
+.grid_11 { width: 87%; }
+.grid_12 { width: 100%; }
+
+/* Separación entre columnas */
+[class^="grid_"] {
+    padding: 10px;
+}
+
+/* Clase para filas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Responsive design para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .container_12 {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* Las columnas ocupan el ancho completo en dispositivos pequeños */
+    .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6,
+    .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+        width: 100%;
+    }
+}

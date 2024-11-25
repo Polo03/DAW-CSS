@@ -1,0 +1,41 @@
+/* Fondo con color sólido y texto blanco */
+body {
+    background-color: #282c34; /* Fondo oscuro */
+    color: white; /* Color del texto en blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezado con fondo en degradado lineal */
+header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Degradado lineal de naranja a rosado */
+    padding: 20px;
+    font-size: 2em;
+}
+
+/* Fondo degradado radial para las secciones */
+.section {
+    background: radial-gradient(circle, #00c6ff, #0072ff); /* Degradado radial de azul claro a azul oscuro */
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+/* Texto con sombra y borde */
+.text-effect {
+    color: #ffb347; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra al texto */
+    border: 2px solid #ffcc33; /* Borde alrededor del texto */
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/* Pie de página con fondo degradado lineal */
+footer {
+    background: linear-gradient(180deg, #34e89e, #0f3443); /* Degradado lineal de verde a azul oscuro */
+    padding: 20px;
+    color: white;
+}

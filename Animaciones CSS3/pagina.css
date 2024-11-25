@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/* Posicionamiento de las cajas en las cuatro esquinas */
+#animacion1 { top: 10px; left: 10px; background-color: #ff5733; }
+#animacion2 { top: 10px; right: 10px; background-color: #33ff57; }
+#animacion3 { bottom: 10px; left: 10px; background-color: #3357ff; }
+#animacion4 { bottom: 10px; right: 10px; background-color: #ff33c4; }
+
+/* Animación de la caja 1 (movimiento circular) */
+@keyframes movimientoCircular {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(50px, 50px); }
+    50% { transform: translate(0, 100px); }
+    75% { transform: translate(-50px, 50px); }
+    100% { transform: translate(0, 0); }
+}
+#animacion1 {
+    animation: movimientoCircular 3s infinite;
+}
+
+/* Animación de la caja 2 (cambio de color) */
+@keyframes cambioColor {
+    0% { background-color: #33ff57; }
+    50% { background-color: #ff5733; }
+    100% { background-color: #33ff57; }
+}
+#animacion2 {
+    animation: cambioColor 2s infinite;
+}
+
+/* Animación de la caja 3 (aparecer y desaparecer) */
+@keyframes aparecerDesaparecer {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+#animacion3 {
+    animation: aparecerDesaparecer 3s infinite;
+}
+
+/* Animación de la caja 4 (moverse hacia abajo y volver) */
+@keyframes moverAbajo {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(100px); }
+    100% { transform: translateY(0); }
+}
+#animacion4 {
+    animation: moverAbajo 2.5s infinite;
+}

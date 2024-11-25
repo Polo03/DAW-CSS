@@ -1,0 +1,10 @@
+.tablaCebreada tr:nth-child(odd) {
+    background-color: var(--colorFondoCebra);
+  }
+  
+  .tablaConCabecera th {
+    background-color: var(--colorCabeceraTabla);
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  

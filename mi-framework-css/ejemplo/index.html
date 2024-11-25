@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Framework CSS</title>
+    <!-- Importa el archivo principal de estilos CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body style="background-color: var(--colorFondo);">
+
+    <!-- Menú Horizontal -->
+    <header class="menuHorizontal">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </header>
+
+    <main class="container_12">
+
+        <!-- Cabeceras -->
+        <section id="inicio" class="grid_12">
+            <h1 class="tituloPrincipal">Bienvenido a Nuestro Framework CSS</h1>
+            <h2 class="tituloSecundario">Diseño sencillo y eficiente con 960 Grid System</h2>
+            <p class="textoDestacado">Este framework permite crear diseños limpios y responsivos utilizando una rejilla de 960 píxeles.</p>
+        </section>
+
+        <!-- Tipografía -->
+        <section id="tipografia" class="grid_12">
+            <h3 class="subtitulo">Ejemplos de Tipografía</h3>
+            <p class="textoNormal">Este es un texto normal, diseñado para párrafos estándar.</p>
+            <p class="textoDestacado">Este es un texto destacado, utilizado para resaltar información importante.</p>
+            <p class="textoPie">Este es un texto para pie de página o notas adicionales.</p>
+        </section>
+
+        <!-- Tabla Cebreada -->
+        <section id="tablas" class="grid_12">
+            <h3 class="subtitulo">Ejemplo de Tabla Cebreada</h3>
+            <table class="tablaCebreada tablaConCabecera">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Producto A</td>
+                        <td>Descripción breve del producto A</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto B</td>
+                        <td>Descripción breve del producto B</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto C</td>
+                        <td>Descripción breve del producto C</td>
+                        <td>$20.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Menú Vertical -->
+        <section id="menu-vertical" class="grid_3">
+            <h3 class="subtitulo">Menú Vertical</h3>
+            <ul class="menuVertical">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="grid_12 textoPie">
+        <p>&copy; 2024 Mi Framework CSS. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

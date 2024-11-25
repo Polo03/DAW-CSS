@@ -1,0 +1,149 @@
+/* ------------------------------ 
+   Estilos Generales 
+   ------------------------------ */
+   /* Estilo general */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: lightblue;
+      text-align: center;
+      font-family: Istok Web, sans-serif;
+      font-weight: 100;
+  }
+  .header, .footer {
+      background-color: #2d3748; /* bg-gray-800 */
+      color: white; /* text-white */
+      text-align: center; /* text-center */
+      padding: 16px 0; /* py-4 */
+  }
+  
+  .header-title {
+      font-size: 1.875rem; /* text-3xl */
+      font-weight: bold; /* font-bold */
+  }
+  
+  .main {
+      text-align: center; /* text-center */
+      padding: 32px 0; /* py-8 */
+  }
+  
+  .main-text {
+      font-size: 1rem; /* text-2xl */
+      font-family: Istok Web, sans-serif;
+      margin-left: 15%;
+      margin-right: 15%;
+  }
+  div#container{
+      display: flex;
+  }
+  .lados_arriba{
+      width: 25%;
+  }
+  
+  /* ------------------------------ 
+     Estilos del Menú 
+     ------------------------------ */
+  .menu {
+      text-align: left;
+      background-color: #2d3748;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .menu ul li {
+      display: inline-block;
+      position: relative;
+  }
+  
+  .menu ul li a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+      background-color: #555; /* Cambio de color en hover */
+  }
+  
+  /* Estilos del submenú */
+  .menu ul li ul.submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #333;
+      padding: 0;
+      margin: 0;
+      min-width: 200px;
+  }
+  
+  .menu ul li:hover ul.submenu {
+      display: block; /* Mostrar el submenú al pasar el ratón */
+  }  
+  /* ------------------------------ 
+     Estilos del Footer 
+     ------------------------------ */
+     
+  .footer {
+      background-color: #2d3748; /* Color de fondo */
+      color: white; /* Color de texto */
+      text-align: center; /* Alineación de texto */
+      padding: 20px 0; /* Espaciado interno */
+  }
+  
+  .footer-container {
+      max-width: 1200px; /* Ancho máximo */
+      margin: 0 auto; /* Centrar */
+  }
+  
+  .footer-links {
+      list-style-type: none; /* Elimina viñetas de la lista */
+      padding: 0; /* Elimina padding */
+  }
+  
+  .footer-links li {
+      display: inline; /* Elementos en línea */
+      margin: 0 15px; /* Espaciado entre los enlaces */
+  }
+  
+  .footer-links a {
+      color: white; /* Color del enlace */
+      text-decoration: none; /* Elimina subrayado */
+  }
+  
+  .footer-links a:hover {
+      text-decoration: underline; /* Subrayado al pasar el mouse */
+  }
+
+
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E0F7FA; /* Light blue background */
+    color: #333; /* Dark gray text */
+    font-family: Arial, sans-serif;
+}
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #333; /* Dark gray titles */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.content strong {
+    color: #000; /* Black for strong text */
+}

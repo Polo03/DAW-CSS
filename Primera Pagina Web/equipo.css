@@ -1,0 +1,183 @@
+/* ------------------------------ 
+   Estilos Generales 
+   ------------------------------ */
+   /* Estilo general */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: lightblue;
+      text-align: center;
+      font-family: Istok Web, sans-serif;
+      font-weight: 100;
+  }
+  .header, .footer {
+      background-color: #2d3748; /* bg-gray-800 */
+      color: white; /* text-white */
+      text-align: center; /* text-center */
+      padding: 16px 0; /* py-4 */
+  }
+  
+  .header-title {
+      font-size: 1.875rem; /* text-3xl */
+      font-weight: bold; /* font-bold */
+  }
+  
+  .main {
+      text-align: center; /* text-center */
+      padding: 32px 0; /* py-8 */
+  }
+  
+  .main-text {
+      font-size: 1.5rem; /* text-2xl */
+      font-weight: bold; /* font-bold */
+  }
+  div#container{
+      display: flex;
+  }
+  .lados_arriba{
+      width: 25%;
+  }
+  
+  /* ------------------------------ 
+     Estilos del Menú 
+     ------------------------------ */
+  .menu {
+      text-align: left;
+      background-color: #2d3748;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .menu ul li {
+      display: inline-block;
+      position: relative;
+  }
+  
+  .menu ul li a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+      background-color: #555; /* Cambio de color en hover */
+  }
+  
+  /* Estilos del submenú */
+  .menu ul li ul.submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #333;
+      padding: 0;
+      margin: 0;
+      min-width: 200px;
+  }
+  
+  .menu ul li:hover ul.submenu {
+      display: block; /* Mostrar el submenú al pasar el ratón */
+  }    
+  
+  /* ------------------------------ 
+     Estilos del Footer 
+     ------------------------------ */
+     
+  .footer {
+      background-color: #2d3748; /* Color de fondo */
+      color: white; /* Color de texto */
+      text-align: center; /* Alineación de texto */
+      padding: 20px 0; /* Espaciado interno */
+  }
+  
+  .footer-container {
+      max-width: 1200px; /* Ancho máximo */
+      margin: 0 auto; /* Centrar */
+  }
+  
+  .footer-links {
+      list-style-type: none; /* Elimina viñetas de la lista */
+      padding: 0; /* Elimina padding */
+  }
+  
+  .footer-links li {
+      display: inline; /* Elementos en línea */
+      margin: 0 15px; /* Espaciado entre los enlaces */
+  }
+  
+  .footer-links a {
+      color: white; /* Color del enlace */
+      text-decoration: none; /* Elimina subrayado */
+  }
+  
+  .footer-links a:hover {
+      text-decoration: underline; /* Subrayado al pasar el mouse */
+  }
+  
+
+  .container {
+    max-width: 1200px; /* Cambia el ancho máximo */
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido en la página */
+    height: 77.2vh; /* Ocupa toda la altura de la ventana */
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribuye los miembros */
+    align-items: center; /* Centra los miembros verticalmente */
+    flex: 1; /* Permite que el equipo ocupe el espacio restante */
+}
+
+.member {
+    background: #e9ecef;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    flex: 1 1 calc(25% - 20px); /* Cambia el tamaño de los miembros */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Añade sombra a los miembros */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    flex-direction: column; /* Coloca el contenido en columna */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    height: 200px; /* Ajusta la altura de cada miembro */
+}
+
+.member img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 150px; /* Tamaño máximo de la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.member h2 {
+    margin: 5px 0;
+    color: #007bff;
+}
+
+.member p {
+    color: #555;
+}
+
+/* Asegúrate de que la página ocupe todo el alto disponible */
+html, body {
+    height: 100%;
+}
