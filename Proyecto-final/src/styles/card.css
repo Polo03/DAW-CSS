@@ -1,6 +1,6 @@
 /* Estilo de Card */
 .card {
-    width: 300px;
+    width: 650px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,17 +25,20 @@
   }
   
   .card-title {
+    text-align: center;
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
   
   .card-description {
+    text-align: center;
     font-size: 1rem;
     margin-bottom: 16px;
     color: #555;
   }
   
   .card-button {
+    width: 100%;
     background-color: #007bff;
     color: #fff;
     border: none;
