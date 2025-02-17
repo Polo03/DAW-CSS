@@ -1,0 +1,16 @@
+/* Asegúrate de tener esto en tu archivo de estilos de Home (por ejemplo, Home.css) */
+
+.cards-section {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre las cards */
+    align-items: center; /* Alineación vertical centrada */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+  
+  .main-title {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
