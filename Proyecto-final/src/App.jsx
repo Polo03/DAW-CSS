@@ -24,7 +24,6 @@ const App = () => {
             <ul className="nav-links">
               <li><Link to="/">Inicio</Link></li>
               <li><Link to="/about">Sobre Nosotros</Link></li>
-              <li><Link to="/gallery">Galería</Link></li>
               <li><Link to="/contact">Contacto</Link></li>
             </ul>
             <div>
@@ -54,7 +53,6 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<LoginForm onLogin={handleLogin} />} />
             <Route path="/profile" element={<Profile user={user} />} />

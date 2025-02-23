@@ -1,16 +1,24 @@
-/* Asegúrate de tener esto en tu archivo de estilos de Home (por ejemplo, Home.css) */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
 
 .cards-section {
-    display: flex;
-    justify-content: space-between; /* Espaciado entre las cards */
-    align-items: center; /* Alineación vertical centrada */
-    gap: 20px; /* Espacio entre los elementos */
-  }
-  
-  .main-title {
-    text-align: center;
-    width: 100%;
-    font-size: 2rem;
-    margin: 20px 0;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.cards-section .card {
+  width: 300px; /* Ajusta el tamaño de las cards */
+}
+
+.carousel {
+  width: 500px; /* Ajusta el tamaño del carrusel */
+}
