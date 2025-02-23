@@ -1,9 +1,8 @@
 import { Link, Route, Routes } from "react-router-dom";
 import React, { useState } from "react";
 import Home from './pages/Home';
-import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
 import About from './pages/About';
+import Contact from './pages/Contact';
 import './styles/main.css';
 import fotoPerfil from './assets/foto_perfil.jpg';
 import LoginForm from "./pages/LoginForm";
