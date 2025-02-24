@@ -1,0 +1,38 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.gallery-top {
+  display: flex;
+  gap: 16px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Asegúrate de que las imágenes no se estiren y mantengan su proporción */
+.gallery-top .gallery-item {
+  width: 45%; /* Las imágenes de arriba ocupan el 45% del contenedor */
+}
+
+.gallery-bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.gallery-bottom .gallery-item {
+  width: 60%; /* La imagen de abajo ocupa el 60% del contenedor */
+}

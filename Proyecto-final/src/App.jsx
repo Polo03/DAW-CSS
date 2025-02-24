@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
 import './styles/main.css';
 import fotoPerfil from './assets/foto_perfil.jpg';
 import LoginForm from "./pages/LoginForm";
@@ -24,6 +25,7 @@ const App = () => {
               <li><Link to="/">Inicio</Link></li>
               <li><Link to="/about">Sobre Nosotros</Link></li>
               <li><Link to="/contact">Contacto</Link></li>
+              <li><Link to="/gallery">Galería</Link></li>
             </ul>
             <div>
               {user ? (
@@ -53,6 +55,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/login" element={<LoginForm onLogin={handleLogin} />} />
             <Route path="/profile" element={<Profile user={user} />} />
           </Routes>

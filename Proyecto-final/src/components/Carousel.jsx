@@ -14,7 +14,6 @@ function Carousel() {
     imagenCasa2,
     imagenCasa3
   ];
-  console.log(images);
 
   // Función para cambiar la imagen hacia la izquierda
   const handlePrevClick = () => {
